@@ -1,0 +1,26 @@
+/* selector {
+property: value:
+property: value:
+} */
+
+
+body {
+  color: blue;
+  font-family: helvetica;
+  font-size: 16px;
+  font-style: italic;
+  
+}
+
+h1{
+
+}
+
+/* By Class name */
+.classOne{
+
+}
+
+.classTwo{
+
+}

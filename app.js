@@ -48,51 +48,66 @@
 //
 // //lab,2,question_5_n_6
 //
-// //questionFive
-// var questionFive = prompt('Is my hobbie, A) Collecting car\'s?, B) Collecting watche\'s? , or C) Collecting Jordan\'s? ');
-//
-// if (questionFive === 'B' || questionFive === 'Collecting watche\'s' || questionFive === 'B) Collecting watche\'s' || questionFive === 'B)' || questionFive === 'b') {
-//   alert('Yes, I do collect watche\'s!');
-// } else if (questionFive === 'C' || questionFive === 'Collecting Jordan\'s' || questionFive === 'C) Collecting Jordan\'s') {
-//   alert('Sorry, I hate Jordan\'s');
-// }else{
-//   alert('no not yet, but I hope to in the future');
-// }
-// //answerFive
-// console.log('answer B) Collecting watche\'s');
-//
-//
+//questionFive
+var questionFive = prompt('Is my hobbie, A) Collecting car\'s?, B) Collecting watche\'s? , or C) Collecting Jordan\'s? ');
+
+if (questionFive === 'B' || questionFive === 'Collecting watche\'s' || questionFive === 'B) Collecting watche\'s' || questionFive === 'B)' || questionFive === 'b') {
+  alert('Yes, I do collect watche\'s!');
+} else if (questionFive === 'C' || questionFive === 'Collecting Jordan\'s' || questionFive === 'C) Collecting Jordan\'s') {
+  alert('Sorry, I hate Jordan\'s');
+}else{
+  alert('no not yet, but I hope to in the future');
+}
+//answerFive
+console.log('answer B) Collecting watche\'s');
+
+
 // questionSix
 
-
-//how many watches do I own?
-var questionSix = prompt('how many watche\'s are in my collection?');
-console.log("user answer is", questionSix);
-
-var userGuess = questionSix;
-console.log("assign value of questionSix to var userGuess", (userGuess === questionSix));
-
+var counterSix = 0;
 var answerSix = 5;
-//compare userGuess to answerSix and prompt appropriate respone
-if( userGuess === answerSix) {
-  alert("good job");
-} else if (userGuess < answerSix) {
-  alert("too low");
-} else (userGuess > answerSix); {
-    alert("too high");
+//create a while loop that allows user 4 tries to get answer6
+while (counterSix < 4) {
+  counterSix++;
+  var questionSix = parseInt(prompt('how many watche\'s are in my collection?'));
+  if (counterSix === 4) {
+  alert ("too many guess'\s");
+  }
+  else if (answerSix === questionSix) {
+    console.log(answerSix === questionSix);
+    alert ("correct!");
+    break;
+  }
+  else if (questionSix < answerSix) {
+    alert("too low");
+  }
+  else if (questionSix > answerSix) {
+      alert("too high");
+  }
 }
 
-//ASSIGN A VALUE TO THE ANSWER
-// var answer6 = 5;
-// if ( questionSix < 5);
-//   alrt('too low');
-// //
-// }
-// if (.indexOf(questionSix) !== -1){
-//   alert('Sorry not correct!');
-// } else {
-//   alert('That is correct');
-// }
-//
+//questionSven
+counterSven = 0;
 
-//
+//ask questionSven
+//create Array for questionSven
+var arSven = new Array('seatac','kent');
+//create while loop
+while(counterSven < 6){
+  counterSven++;
+  var userQuestion = prompt("Guess cities that I have lived in WA state");
+
+  if (arSven.indexOf(userQuestion) !== -1){
+    //console.log(arSven === userQuestion);
+    alert("correct");
+
+    break;
+  }
+  else if (arSven.indexOf(userQuestion) === -1) {
+  alert("not correct");
+  }
+  else if (counterSven === 6) {
+    alert("too many guess'\s");
+  }
+}
+ alert("seatac, kent I have lived");

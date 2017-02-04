@@ -81,6 +81,7 @@ if( userGuess === answerSix) {
 } else (userGuess > answerSix); {
     alert("too high");
 }
+//create a loop with 4 tries for the userGuess 
 
 //ASSIGN A VALUE TO THE ANSWER
 // var answer6 = 5;

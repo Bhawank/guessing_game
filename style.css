@@ -1,26 +1,41 @@
-/* selector {
-property: value:
-property: value:
-} */
-
-
+/**/
 body {
-  color: blue;
-  font-family: helvetica;
-  font-size: 16px;
+  background-color: gray;
+}
+
+
+#header {
+  font-size: 20px;
   font-style: italic;
+	width: 99%;
+  clear: both;
+	/*margin-top: -20px;*/
+	height: 100%;
+	background-color: #32ffb7;
+}
+
+.container {
+  width: 120px;
+  float:left;
+}
+
+.linkP{
+  height: 300px;
+  width: 300px;
+}
+.container2{
+ float: right;
+}
+
+h2{
+  color: white;
+  margin-left: 500px;
 
 }
 
-h1{
-
-}
-
-/* By Class name */
-.classOne{
-
-}
-
-.classTwo{
-
+h1 {
+  justify-content: center;
+  display: flex;
+  font-style: italic;
+  background-color: #32f8ff;
 }

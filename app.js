@@ -1,50 +1,50 @@
-// // //
-//
-// var userName = prompt('what\'s your name?');
-// alert ('Hello ' + userName + '. Thanks for coming to my site!');
-//
-// //questionOne
-// var questionOne = prompt('Was I born in India?').toUpperCase();
-// if (questionOne === 'YES' || questionOne === 'Y'){
-//   alert('Correct!');
-// }else{
-//   alert('Wrong!');
-// }
-// //answeOne
-// console.log('Answer 1)Yes, India');
-//
-// //questionTwo
-// var questionTwo = prompt('Is my fav color blue?').toUpperCase();
-// if (questionTwo === 'YES' || questionTwo === 'Y'){
-//   alert('Correct!');
-// }else{
-//   alert('Wrong!');
-// }
-// //answerTwo
-// console.log('Answer 2)Yes, blue');
-//
-// //questionThree
-// var questionThree = prompt('do I like Apple products?').toUpperCase();
-// if (questionThree === 'YES' || questionThree === 'Y'){
-//   alert('Correct!');
-// }else{
-//   alert('Wrong!');
-// }
-// //answerThree
-// console.log('Answer 3)Yes, I do like Apple products')
-//
-// //questionFour
-// var questionFour = prompt('do I have hobbies?').toUpperCase();
-// if (questionFour === 'YES' || questionFour === 'Y'){
-//   alert('Correct!');
-// }else{
-//   alert('Wrong!')
-// }
-// //answerFour
-// console.log('Answer 4)Yes');
-//
-// //end of 4 question and answers
-//
+// //
+
+var userName = prompt('what\'s your name?');
+alert ('Hello ' + userName + '. Thanks for coming to my site!');
+
+//questionOne
+var questionOne = prompt('Was I born in India?').toUpperCase();
+if (questionOne === 'YES' || questionOne === 'Y'){
+  alert('Correct!');
+}else{
+  alert('Wrong!');
+}
+//answeOne
+console.log('Answer 1)Yes, India');
+
+//questionTwo
+var questionTwo = prompt('Is my fav color blue?').toUpperCase();
+if (questionTwo === 'YES' || questionTwo === 'Y'){
+  alert('Correct!');
+}else{
+  alert('Wrong!');
+}
+//answerTwo
+console.log('Answer 2)Yes, blue');
+
+//questionThree
+var questionThree = prompt('do I like Apple products?').toUpperCase();
+if (questionThree === 'YES' || questionThree === 'Y'){
+  alert('Correct!');
+}else{
+  alert('Wrong!');
+}
+//answerThree
+console.log('Answer 3)Yes, I do like Apple products')
+
+//questionFour
+var questionFour = prompt('do I have hobbies?').toUpperCase();
+if (questionFour === 'YES' || questionFour === 'Y'){
+  alert('Correct!');
+}else{
+  alert('Wrong!')
+}
+//answerFour
+console.log('Answer 4)Yes');
+
+//end of 4 question and answers
+
 //
 // //lab,2,question_5_n_6
 //
@@ -111,3 +111,5 @@ while(counterSven < 6){
   }
 }
  alert("seatac, kent I have lived");
+
+ //end of questionSven
